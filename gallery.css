@@ -1,0 +1,70 @@
+
+.banner{
+    width: 1500px;
+    height: 100vh;
+    text-align: center;
+    color: navy;
+    max-width: 100%;
+    margin-top: 0rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    background-size: 100% 100%;
+    background:linear-gradient(cyan,skyblue);
+
+}
+h1{
+    color: white;
+    font-size: 5rem;
+}
+.col{
+    flex-basis: 50%;
+    color: white;
+}
+.card{
+  
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    transition: transform 0.5s;
+    background-position: right;
+    background-size: cover;
+    
+}
+.card1{
+  background-image: url(../images/riya.jpeg);
+ 
+}
+.card2{
+  background-image: url(../images/neha.jpeg);
+}
+.card3{
+  background-image: url(../images/shivani.jpeg);
+}
+.card4{
+  background-image: url(../images/harshit.jpeg);
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+h5{
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+}
+
+.card p{
+    text-shadow: 0 0 15px #000;
+    font-size: 8px;
+}
+
+.row{
+    display:inline-flex;
+    height: 88%;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 50px;
+}
